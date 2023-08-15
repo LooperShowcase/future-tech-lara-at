@@ -7,20 +7,21 @@
   
   /* Set a background color */
   body {
-    background-color  : #534ec1;
+    background: linear-gradient(to left, rgb(211, 103, 161), rgb(101, 216, 224));
+
     font-family: Arial, sans-serif;
   }
   h1 {
-    color:;
+    color:white;
   }
   /* Main container */
   .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color:#ffffff;
     border-radius: 10px;
-    box-shadow: 0 2px 4px #92140C;
+    box-shadow: 8px 8px 8px #92140C;
   }
   
   /* Heading style */
@@ -48,12 +49,12 @@
   }
   
   .user {
-    background-color:#DFB2F4;
+    background-color:#77a5c6 ;
     color: #ffffff;
   }
   
   .assistant {
-    background-color: #f2f2f2;
+    background-color: #d1d1d1;
   }
   
   /* User input form */
@@ -70,7 +71,7 @@
   }
   
   button#submit-button {
-    background-color: #a669c2;
+    background-color: #da5e73;
     color: #080707;
     border: none;
     border-radius: 0 5px 5px 0;
